@@ -1,4 +1,4 @@
-package com.github.tanmayvm.Spark_Twitter_analysis
+package com.github.Spark_Twitter_analysis
 
 import org.apache.spark.streaming.{ Seconds, StreamingContext }
 import org.apache.spark.SparkContext._
@@ -11,7 +11,7 @@ import org.apache.spark.streaming.flume._
 
 
 
-object SparkPopularHashTags {
+object TwitterHashTags {
   val conf = new SparkConf().setMaster("local[4]").setAppName("Spark Streaming - PopularHashTags")
   val sc = new SparkContext(conf)
 
